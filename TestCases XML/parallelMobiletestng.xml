@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParametriseMobile" parallel="tests">
+  
+  <test name="TestAndroidDevice1">
+      
+      <parameter name="port" value="4723"></parameter>
+      <parameter name="device" value="c1b5fe2f"></parameter>
+      <parameter name="platform_name" value="Android"></parameter>
+      <parameter name="platform_version" value="5.1.1"></parameter>
+      <parameter name="application_Name" value="Lenovo Z1"></parameter>
+    		<classes>
+      
+      				<class name="PractestCases.parallelMobileAndroidTest"/>
+  
+      				
+      		</classes>
+    
+    
+  </test> <!-- TestAndroidDevice1 -->
+  
+  
+  <test name="TestAndroidDevice2">
+      
+      <parameter name="port" value="4733"></parameter>
+      <parameter name="device" value="LS5501"></parameter>
+      <parameter name="platform_name" value="Android"></parameter>
+      <parameter name="platform_version" value="5.1.1"></parameter>
+      <parameter name="applicationName" value="lyf"></parameter>
+    
+    		<classes>
+      
+      				<class name="PractestCases.parallelMobileAndroidTest"/>
+  
+      				
+      		</classes>
+    
+    
+  </test> <!-- TestAndroidDevice2 -->
+  
+  
+</suite> <!-- ParametriseMobile -->

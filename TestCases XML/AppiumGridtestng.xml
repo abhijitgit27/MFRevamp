@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RunTrialTestCaseSuite">
+  <test name="AndroidDevice1">
+    <classes>
+      <class name="appiumGrid.TrialTestCase1"/>
+      <class name="appiumGrid.TrialTestCase2"/>
+    </classes>
+  </test> <!-- AndroidDevice1 -->
+</suite> <!-- RunTrialTestCaseSuite -->

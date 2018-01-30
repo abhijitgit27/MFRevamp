@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint2 Suite" parallel="tests">
+  <test name="Sprint2 Test">
+    <classes>
+      <class name="testCases.NavigateMyaccount"/>
+      <class name="testCases.Footers"/>
+    </classes>
+  </test> <!-- Sprint2 Test -->
+</suite> <!-- Sprint2 Suite -->
