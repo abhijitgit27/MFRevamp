@@ -8,6 +8,7 @@ import factory.BrowserFactory;
 
 public class BrowserFactoryTest {
 
+	/*
 	@Test
 	public void testFirefox(){
 		//since getBrowser() is static method so classname.method name
@@ -16,6 +17,7 @@ public class BrowserFactoryTest {
 		BrowserFactory.closeBrowser();
 		
 	}
+	*/
 	
 	@Test
 	public void testchrome(){

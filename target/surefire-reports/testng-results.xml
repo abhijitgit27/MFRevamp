@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="UnitTests" duration-ms="13289" started-at="2018-01-29T14:11:01Z" finished-at="2018-01-29T14:11:15Z">
+  <suite name="UnitTests" duration-ms="13815" started-at="2018-02-01T14:21:58Z" finished-at="2018-02-01T14:22:12Z">
     <groups>
     </groups>
-    <test name="FrameworkUnitTest" duration-ms="13289" started-at="2018-01-29T14:11:01Z" finished-at="2018-01-29T14:11:15Z">
+    <test name="FrameworkUnitTest" duration-ms="13815" started-at="2018-02-01T14:21:58Z" finished-at="2018-02-01T14:22:12Z">
       <class name="unitTest.BrowserFactoryTest">
-        <test-method status="FAIL" signature="testFirefox()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testFirefox" duration-ms="5767" started-at="2018-01-29T19:41:01Z" finished-at="2018-01-29T19:41:07Z">
+        <test-method status="FAIL" signature="testFirefox()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testFirefox" duration-ms="5918" started-at="2018-02-01T19:51:58Z" finished-at="2018-02-01T19:52:04Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Failed to find width field
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'CTL-16', ip: '192.168.31.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Admin\AppData\Local\Temp\rust_mozprofile.iZC9JbGZPlme, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=54.0.1, platformVersion=10.0, moz:processID=17244, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: 64b9137a-d6e9-4d50-993d-a031cdb680b2]]>
+Capabilities [{moz:profile=C:\WINDOWS\TEMP\rust_mozprofile.BcAO0D0JiKmu, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=54.0.1, platformVersion=10.0, moz:processID=6320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 09671aa4-54f0-420b-b32a-138a68768afa]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Failed to find width field
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'CTL-16', ip: '192.168.31.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Admin\AppData\Local\Temp\rust_mozprofile.iZC9JbGZPlme, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=54.0.1, platformVersion=10.0, moz:processID=17244, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: 64b9137a-d6e9-4d50-993d-a031cdb680b2
+Capabilities [{moz:profile=C:\WINDOWS\TEMP\rust_mozprofile.BcAO0D0JiKmu, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=54.0.1, platformVersion=10.0, moz:processID=6320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 09671aa4-54f0-420b-b32a-138a68768afa
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -71,31 +71,31 @@ Session ID: 64b9137a-d6e9-4d50-993d-a031cdb680b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFirefox -->
-        <test-method status="PASS" signature="testIE()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testIE" duration-ms="2295" started-at="2018-01-29T19:41:07Z" finished-at="2018-01-29T19:41:09Z">
+        <test-method status="PASS" signature="testIE()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testIE" duration-ms="2833" started-at="2018-02-01T19:52:04Z" finished-at="2018-02-01T19:52:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIE -->
-        <test-method status="PASS" signature="testchrome()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testchrome" duration-ms="4669" started-at="2018-01-29T19:41:09Z" finished-at="2018-01-29T19:41:14Z">
+        <test-method status="PASS" signature="testchrome()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testchrome" duration-ms="4536" started-at="2018-02-01T19:52:07Z" finished-at="2018-02-01T19:52:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testchrome -->
       </class> <!-- unitTest.BrowserFactoryTest -->
       <class name="unitTest.DataProviderFactoryTest">
-        <test-method status="PASS" signature="testgetConfigObject()[pri:0, instance:unitTest.DataProviderFactoryTest@17550481]" name="testgetConfigObject" duration-ms="1" started-at="2018-01-29T19:41:15Z" finished-at="2018-01-29T19:41:15Z">
+        <test-method status="PASS" signature="testgetConfigObject()[pri:0, instance:unitTest.DataProviderFactoryTest@17550481]" name="testgetConfigObject" duration-ms="1" started-at="2018-02-01T19:52:12Z" finished-at="2018-02-01T19:52:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgetConfigObject -->
-        <test-method status="PASS" signature="testgetExcelObject()[pri:0, instance:unitTest.DataProviderFactoryTest@17550481]" name="testgetExcelObject" duration-ms="33" started-at="2018-01-29T19:41:15Z" finished-at="2018-01-29T19:41:15Z">
+        <test-method status="PASS" signature="testgetExcelObject()[pri:0, instance:unitTest.DataProviderFactoryTest@17550481]" name="testgetExcelObject" duration-ms="40" started-at="2018-02-01T19:52:12Z" finished-at="2018-02-01T19:52:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgetExcelObject -->
       </class> <!-- unitTest.DataProviderFactoryTest -->
       <class name="unitTest.DataProviderTest">
-        <test-method status="PASS" signature="testConfigDataProvider()[pri:0, instance:unitTest.DataProviderTest@783e6358]" name="testConfigDataProvider" duration-ms="2" started-at="2018-01-29T19:41:14Z" finished-at="2018-01-29T19:41:14Z">
+        <test-method status="PASS" signature="testConfigDataProvider()[pri:0, instance:unitTest.DataProviderTest@783e6358]" name="testConfigDataProvider" duration-ms="2" started-at="2018-02-01T19:52:11Z" finished-at="2018-02-01T19:52:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testConfigDataProvider -->
-        <test-method status="PASS" signature="testExcelDataProvider()[pri:0, instance:unitTest.DataProviderTest@783e6358]" name="testExcelDataProvider" duration-ms="496" started-at="2018-01-29T19:41:14Z" finished-at="2018-01-29T19:41:15Z">
+        <test-method status="PASS" signature="testExcelDataProvider()[pri:0, instance:unitTest.DataProviderTest@783e6358]" name="testExcelDataProvider" duration-ms="462" started-at="2018-02-01T19:52:11Z" finished-at="2018-02-01T19:52:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExcelDataProvider -->
