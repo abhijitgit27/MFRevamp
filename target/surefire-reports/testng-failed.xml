@@ -8,13 +8,4 @@
       <class name="unitTest.DataProviderFactoryTest"/>
     </classes>
   </test> <!-- FrameworkUnitTest -->
-  <test name="FrameworkUnitTest(failed)">
-    <classes>
-      <class name="unitTest.BrowserFactoryTest">
-        <methods>
-          <include name="testFirefox"/>
-        </methods>
-      </class> <!-- unitTest.BrowserFactoryTest -->
-    </classes>
-  </test> <!-- FrameworkUnitTest(failed) -->
 </suite> <!-- Failed suite [UnitTests] -->

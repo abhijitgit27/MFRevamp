@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.401 sec <<< FAILURE! - in TestSuite
-testFirefox(unitTest.BrowserFactoryTest)  Time elapsed: 5.93 sec  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-Failed to find width field
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'CTL-16', ip: '192.168.31.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\WINDOWS\TEMP\rust_mozprofile.BcAO0D0JiKmu, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=54.0.1, platformVersion=10.0, moz:processID=6320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: 09671aa4-54f0-420b-b32a-138a68768afa
-	at unitTest.BrowserFactoryTest.testFirefox(BrowserFactoryTest.java:14)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.269 sec - in TestSuite
