@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="UnitTests" duration-ms="7748" started-at="2018-02-02T07:28:40Z" finished-at="2018-02-02T07:28:48Z">
+  <suite name="UnitTests" duration-ms="6965" started-at="2018-02-02T08:30:35Z" finished-at="2018-02-02T08:30:42Z">
     <groups>
     </groups>
-    <test name="FrameworkUnitTest" duration-ms="7748" started-at="2018-02-02T07:28:40Z" finished-at="2018-02-02T07:28:48Z">
+    <test name="FrameworkUnitTest" duration-ms="6965" started-at="2018-02-02T08:30:35Z" finished-at="2018-02-02T08:30:42Z">
       <class name="unitTest.BrowserFactoryTest">
-        <test-method status="PASS" signature="testIE()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testIE" duration-ms="2951" started-at="2018-02-02T12:58:40Z" finished-at="2018-02-02T12:58:43Z">
+        <test-method status="PASS" signature="testIE()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testIE" duration-ms="2709" started-at="2018-02-02T14:00:35Z" finished-at="2018-02-02T14:00:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIE -->
-        <test-method status="PASS" signature="testchrome()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testchrome" duration-ms="4282" started-at="2018-02-02T12:58:43Z" finished-at="2018-02-02T12:58:47Z">
+        <test-method status="PASS" signature="testchrome()[pri:0, instance:unitTest.BrowserFactoryTest@64616ca2]" name="testchrome" duration-ms="3767" started-at="2018-02-02T14:00:37Z" finished-at="2018-02-02T14:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testchrome -->
       </class> <!-- unitTest.BrowserFactoryTest -->
       <class name="unitTest.DataProviderFactoryTest">
-        <test-method status="PASS" signature="testgetConfigObject()[pri:0, instance:unitTest.DataProviderFactoryTest@17550481]" name="testgetConfigObject" duration-ms="1" started-at="2018-02-02T12:58:48Z" finished-at="2018-02-02T12:58:48Z">
+        <test-method status="PASS" signature="testgetConfigObject()[pri:0, instance:unitTest.DataProviderFactoryTest@17550481]" name="testgetConfigObject" duration-ms="1" started-at="2018-02-02T14:00:42Z" finished-at="2018-02-02T14:00:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgetConfigObject -->
-        <test-method status="PASS" signature="testgetExcelObject()[pri:0, instance:unitTest.DataProviderFactoryTest@17550481]" name="testgetExcelObject" duration-ms="37" started-at="2018-02-02T12:58:48Z" finished-at="2018-02-02T12:58:48Z">
+        <test-method status="PASS" signature="testgetExcelObject()[pri:0, instance:unitTest.DataProviderFactoryTest@17550481]" name="testgetExcelObject" duration-ms="27" started-at="2018-02-02T14:00:42Z" finished-at="2018-02-02T14:00:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgetExcelObject -->
       </class> <!-- unitTest.DataProviderFactoryTest -->
       <class name="unitTest.DataProviderTest">
-        <test-method status="PASS" signature="testConfigDataProvider()[pri:0, instance:unitTest.DataProviderTest@783e6358]" name="testConfigDataProvider" duration-ms="2" started-at="2018-02-02T12:58:47Z" finished-at="2018-02-02T12:58:47Z">
+        <test-method status="PASS" signature="testConfigDataProvider()[pri:0, instance:unitTest.DataProviderTest@783e6358]" name="testConfigDataProvider" duration-ms="2" started-at="2018-02-02T14:00:41Z" finished-at="2018-02-02T14:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testConfigDataProvider -->
-        <test-method status="PASS" signature="testExcelDataProvider()[pri:0, instance:unitTest.DataProviderTest@783e6358]" name="testExcelDataProvider" duration-ms="460" started-at="2018-02-02T12:58:47Z" finished-at="2018-02-02T12:58:48Z">
+        <test-method status="PASS" signature="testExcelDataProvider()[pri:0, instance:unitTest.DataProviderTest@783e6358]" name="testExcelDataProvider" duration-ms="445" started-at="2018-02-02T14:00:41Z" finished-at="2018-02-02T14:00:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExcelDataProvider -->
